@@ -1,0 +1,9 @@
+TITLE getNameFromStackForced
+MAX_WIDTH
+
+TEXT --{
+String getNameFromStackForced(stack)
+//强制获取物品堆物品识别名称，不建议使用
+
+stack(ItemStack):获取名称的物品堆
+}--

@@ -1,0 +1,5 @@
+TITLE CS3修复补丁(Fix)
+
+BUTTON getItemName Fixed/getItemName
+BUTTON getItemStack Fixed/getItemStack
+BUTTON getNameFromStackForced Fixed/getNameFromStackForced

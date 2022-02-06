@@ -1,0 +1,8 @@
+TITLE getItemName
+MAX_WIDTH
+
+TEXT --{
+String getItemName(stack)
+
+-stack(ItemStack或Item):要获取名称的物品(堆)
+}--

@@ -1,0 +1,10 @@
+TITLE getItemStack
+MAX_WIDTH
+
+TEXT --{
+ItemStack getItemStack(ItemName, int amount, int meta)
+
+-ItemName(String):物品识别名称
+-amount(int):物品数量
+-meta(int):物品附加数值
+}--
