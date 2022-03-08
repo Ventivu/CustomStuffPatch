@@ -1,8 +1,8 @@
 package com.ventivu.CustomStuff3Plugin.mixin.mixins;
 
 
-import cubex2.cs3.ClientProxy;
-import cubex2.cs3.util.ClientHelper;
+import cubex2.cs3.*;
+import cubex2.cs3.util.*;
 import net.minecraft.util.ResourceLocation;
 import org.apache.commons.io.Charsets;
 import org.apache.commons.io.IOUtils;
@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.io.InputStream;
 
 @Mixin(ClientHelper.class)
-public class MixinCS3Stream {
+public abstract class MixinCS3Stream {
     /**
      * @author Ventivu
      * @reason 重写doc文本搜寻逻辑以加入本身既存doc

@@ -9,7 +9,6 @@ public class CommonProxy {
     // preInit "Run before anything else. Read your config, create blocks, items,
     // etc, and register them with the GameRegistry."
     public void preInit(FMLPreInitializationEvent event) 	{
-        GameRegistry.registerBlock(new TestBlock(Material.ground),"Test_Block");
     }
 
     // load "Do your mod setup. Build whatever data structures you care about. Register recipes."
